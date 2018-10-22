@@ -1,0 +1,7 @@
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\bin\Debug\ClassesEstagio.exe.config
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\bin\Debug\ClassesEstagio.exe
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\bin\Debug\ClassesEstagio.pdb
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\obj\Debug\ClassesEstagio.csprojAssemblyReference.cache
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\obj\Debug\ClassesEstagio.csproj.CoreCompileInputs.cache
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\obj\Debug\ClassesEstagio.exe
+c:\users\alunoct\source\repos\ClassesEstagio\ClassesEstagio\obj\Debug\ClassesEstagio.pdb
