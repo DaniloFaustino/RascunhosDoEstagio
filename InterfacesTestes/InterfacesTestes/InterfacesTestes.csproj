@@ -51,19 +51,61 @@
     <Compile Include="Cad.Designer.cs">
       <DependentUpon>Cad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="CadastroAdm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CadastroAdm.Designer.cs">
+      <DependentUpon>CadastroAdm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDocente.Designer.cs">
+      <DependentUpon>CadastroDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroTurma.Designer.cs">
+      <DependentUpon>CadastroTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreCadastro.Designer.cs">
+      <DependentUpon>PreCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar.Designer.cs">
+      <DependentUpon>Visualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atualizar.Designer.cs">
+      <DependentUpon>Atualizar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Atualizar.resx">
+      <DependentUpon>Atualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cad.resx">
       <DependentUpon>Cad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="PreCadastro.resx">
+      <DependentUpon>PreCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +116,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Visualizar.resx">
+      <DependentUpon>Visualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

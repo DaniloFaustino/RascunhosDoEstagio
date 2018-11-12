@@ -28,56 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCadastro = new System.Windows.Forms.Button();
+            this.btnVisualizar = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCadastro
             // 
-            this.button1.Location = new System.Drawing.Point(70, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 119);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCadastro.Location = new System.Drawing.Point(70, 148);
+            this.btnCadastro.Name = "btnCadastro";
+            this.btnCadastro.Size = new System.Drawing.Size(167, 119);
+            this.btnCadastro.TabIndex = 0;
+            this.btnCadastro.Text = "button1";
+            this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 
-            // button2
+            // btnVisualizar
             // 
-            this.button2.Location = new System.Drawing.Point(312, 148);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(167, 119);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnVisualizar.Location = new System.Drawing.Point(312, 148);
+            this.btnVisualizar.Name = "btnVisualizar";
+            this.btnVisualizar.Size = new System.Drawing.Size(167, 119);
+            this.btnVisualizar.TabIndex = 1;
+            this.btnVisualizar.Text = "button2";
+            this.btnVisualizar.UseVisualStyleBackColor = true;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
-            // button3
+            // btnAtualizar
             // 
-            this.button3.Location = new System.Drawing.Point(552, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(167, 119);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Location = new System.Drawing.Point(552, 148);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(167, 119);
+            this.btnAtualizar.TabIndex = 2;
+            this.btnAtualizar.Text = "button3";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // Cad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.btnVisualizar);
+            this.Controls.Add(this.btnCadastro);
             this.Name = "Cad";
-            this.Text = "Cad";
+            this.Text = "Tela Principal";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCadastro;
+        private System.Windows.Forms.Button btnVisualizar;
+        private System.Windows.Forms.Button btnAtualizar;
     }
 }

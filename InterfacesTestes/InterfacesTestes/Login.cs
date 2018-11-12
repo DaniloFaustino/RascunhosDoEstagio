@@ -11,13 +11,13 @@ using System.Data.SqlClient;
 
 namespace InterfacesTestes
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
 
         string usuario= "programador";
         string senha = "Cp2";
 
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }

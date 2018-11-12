@@ -15,16 +15,24 @@ namespace InterfacesTestes
         public Cad()
         {
             InitializeComponent();
-            testarCombo();
         }
 
-        public void testarCombo()
+        private void btnCadastro_Click(object sender, EventArgs e)
         {
-          
-              
-
+            PreCadastro cad = new PreCadastro();
+            cad.Show();
         }
 
-       
+        private void btnVisualizar_Click(object sender, EventArgs e)
+        {
+            Visualizar visu = new Visualizar();
+            visu.Show();
+        }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            Atualizar att = new Atualizar();
+            att.Show();
+        }
     }
 }
