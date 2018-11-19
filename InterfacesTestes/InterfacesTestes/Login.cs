@@ -14,9 +14,7 @@ namespace InterfacesTestes
     public partial class Login : Form
     {
 
-        string usuario= "programador";
-        string senha = "Cp2";
-
+        
         public Login()
         {
             InitializeComponent();
@@ -34,24 +32,24 @@ namespace InterfacesTestes
             SqlCommand comd = new SqlCommand();
             comd.Connection = conex;
 
-            comd.CommandText = "SELECT Matricula FROM Adm WHERE MATRICULA = @Matricula AND SENHA = @Senha";
-            comd.Parameters.AddWithValue("Matricula", TxtMatricula.Text);
+            comd.CommandText = "SELECT Login FROM Usuarios WHERE Login = @Login AND Senha = @Senha";
+            comd.Parameters.AddWithValue("Login", TxtMatricula.Text);
             comd.Parameters.AddWithValue("Senha", TxtSenha.Text);
 
             comd.Connection.Open();
             SqlDataReader reader = comd.ExecuteReader();
-            int id = 0;
+            string id = "";
             if (reader.HasRows)
             {
                 while (reader.Read())
                 {
-                    id = reader.GetInt32(0);
+                    id = reader.GetString(0);
                 }
             }
             reader.Close();
             comd.Connection.Close();
 
-            if (id == 0)
+            if (id == "")
             {
                 MessageBox.Show("Informações Inválidas");
             }

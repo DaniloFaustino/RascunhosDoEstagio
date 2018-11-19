@@ -101,6 +101,12 @@
     <EmbeddedResource Include="Cad.resx">
       <DependentUpon>Cad.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadastroAdm.resx">
+      <DependentUpon>CadastroAdm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroDocente.resx">
+      <DependentUpon>CadastroDocente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PreCadastro.resx">
       <DependentUpon>PreCadastro.cs</DependentUpon>
     </EmbeddedResource>

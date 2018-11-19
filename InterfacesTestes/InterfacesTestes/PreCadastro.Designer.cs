@@ -39,7 +39,7 @@
             this.BtnAdministrador.Name = "BtnAdministrador";
             this.BtnAdministrador.Size = new System.Drawing.Size(75, 117);
             this.BtnAdministrador.TabIndex = 0;
-            this.BtnAdministrador.Text = "button1";
+            this.BtnAdministrador.Text = "Adm";
             this.BtnAdministrador.UseVisualStyleBackColor = true;
             this.BtnAdministrador.Click += new System.EventHandler(this.BtnAdministrador_Click);
             // 
@@ -49,7 +49,7 @@
             this.BtnDocente.Name = "BtnDocente";
             this.BtnDocente.Size = new System.Drawing.Size(75, 117);
             this.BtnDocente.TabIndex = 1;
-            this.BtnDocente.Text = "button1";
+            this.BtnDocente.Text = "Docente";
             this.BtnDocente.UseVisualStyleBackColor = true;
             this.BtnDocente.Click += new System.EventHandler(this.BtnDocente_Click);
             // 
@@ -59,7 +59,7 @@
             this.BtnTurma.Name = "BtnTurma";
             this.BtnTurma.Size = new System.Drawing.Size(75, 117);
             this.BtnTurma.TabIndex = 2;
-            this.BtnTurma.Text = "button2";
+            this.BtnTurma.Text = "Turma";
             this.BtnTurma.UseVisualStyleBackColor = true;
             this.BtnTurma.Click += new System.EventHandler(this.BtnTurma_Click);
             // 
